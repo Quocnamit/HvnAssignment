@@ -2,7 +2,7 @@ describe('Person must have its own method', function () {
 	var people;
 
 	beforeEach(function() {
-		people = new person();
+		people = new Person();
 	});
 
 

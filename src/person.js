@@ -1,4 +1,4 @@
-var person = function (gender, firstName, lastName){
+var Person = function (){
 	var gender, firstName, lastName;
 	
 	this.setFirstName = function(newFirstName){
