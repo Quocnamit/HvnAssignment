@@ -6,10 +6,12 @@
     "test": "gulp test"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
     "jasmine": "^2.4.1",
     "karma": "1.x || ^0.13.0",
-    "karma-jasmine": "1.x || ^0.3.6",
     "karma-chrome-launcher": "1.x || ^0.2.0",
-    "gulp": "^3.9.0"
+    "karma-jasmine": "1.x || ^0.3.6",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
   }
 }

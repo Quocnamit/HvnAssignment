@@ -1,15 +1,20 @@
 var Car = function(maxPassengers){
-	this.passengers = [];
-	
-	this.addPassenger(Person){
-		if()
+	passengers = [];
+	noOfMaxPassengers = maxPassengers;
+		
+	this.addPassenger = function(person){
+		if(passengers.length < noOfMaxPassengers){
+			passengers.push(person);
+		} else {
+			throw new Error("Over max number of passengers");
+		}
 	}
-	
-	this.getNumberOfPassenger(){
+
+	this.getNumberOfPassenger = function(){
 		return passengers.length;
 	}
 
-	this.getNumberOfMen(){
+	this.getNumberOfMen = function(){
 		var men = 0;
 		for (var i = 0; i < passengers.length; i++) {
 			if(passengers[i].getGender() === 'male'){
