@@ -9,8 +9,8 @@ describe("Student constructor function suite", function() {
     });
 
     it("should be a constructor function", function() {
-		expect(Girl).toEqual(jasmine.any(Function));
-        expect(new Girl()).toEqual(jasmine.any(Object));    	
+      expect(Girl).toEqual(jasmine.any(Function));
+      expect(new Girl()).toEqual(jasmine.any(Object));    	
     });
 
     it("should have createGirl(options) function", function() {
